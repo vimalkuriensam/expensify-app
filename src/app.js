@@ -19,10 +19,7 @@ store.subscribe(() => {
 });
 
 
-store.dispatch(addExpense({ description: 'Water Bill'}));
-store.dispatch(addExpense({ description: 'Gas Bill', createdAt: 1000}));
-store.dispatch(addExpense({ description: 'Rent',amount: 109500 }));
-store.dispatch(addExpense({ description: 'Car Insurance', amount: 3000, createdAt: 2100}));
+
 
 
 const jsx = (
